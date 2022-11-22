@@ -2,36 +2,42 @@ import "./About.css";
 
 const About = () => {
   return (
-    <div class="flex-container-about justify-content-evenly">
-      <div class="row-about container-fluid" id="about">
-        <div>
-          <h2>
-            70% of purchase decisions are made <br />
-            after a shopper enters a store
-          </h2>
-          <hr />
-          <p>
-            We apply our continuous understanding of Retailers, Brands, and
-            Shoppers to design
-            <br />
-            effective know-how solutions that drive significant long-term
-            revenue and brand affinity. Retail partners and brand
-            <br />
-            clients across the globe have trusted us with result-
-            <br />
-            driven omnichannel marketing to stay connected with shoppers, which
-            are crucial and
-            <br />
-            experiential during and post-pandemic.
-          </p>
-        </div>
-        <div>
-          <img src="assets/supermarket.jpg" class="aboutPic img-fluid" />
+    <div class="row-about" id="about">
+      <div class="flex-container-about justify-content-evenly ">
+        <div className="flex-container-about justify-content-evenly">
+          <div>
+            <h2>
+              70% of purchase decisions are made <br />
+              after a shopper enters a store
+            </h2>
+
+            <hr />
+            <p className="par">
+              We apply our continuous understanding of Retailers, Brands, and
+              Shoppers to design
+              <br />
+              effective know-how solutions that drive significant long-term
+              revenue and brand affinity. Retail partners and brand
+              <br />
+              clients across the globe have trusted us with result-
+              <br />
+              driven omnichannel marketing to stay connected with shoppers,
+              which are crucial and
+              <br />
+              experiential during and post-pandemic.
+            </p>
+          </div>
+          <div>
+            <img
+              src="assets/supermarket.jpg"
+              class="aboutPic img-fluid"
+              alt="supermarket"
+            />
+          </div>
         </div>
       </div>
-      <div class="flex-container-description">
+      <div class="flex-container-description justify-content-evenly">
         <div>
-          {" "}
           <dl>
             <dt>
               <svg
