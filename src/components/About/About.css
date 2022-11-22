@@ -1,25 +1,19 @@
-.flex-container-description {
+.flex-container-about {
   display: flex;
   flex-wrap: nowrap;
   background-color: white;
-}
-.flex-container-description > div {
-  background-color: white;
-  width: 300px;
-  margin: 10px;
-  margin-top: 40px;
   text-align: left;
+}
+.flex-container-about > div {
+  margin-top: 50px;
   line-height: 35px;
-  text-align: justify;
+  text-align: start;
   font-size: 15px;
-  align-items: center;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 40px;
+  height: 60vh;
 }
 
 .aboutPic {
-  align-items: center;
+  margin-right: auto;
   border: 10px outset rgb(137, 5, 5);
   border-radius: 60%;
   width: 500px;
@@ -32,4 +26,20 @@
 
 .dlList {
   text-align: left;
+}
+
+.flex-container-description {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: white;
+}
+.flex-container-description > div {
+  background-color: white;
+  width: 300px;
+  margin: 10px;
+  margin-top: 40px;
+  line-height: 35px;
+  text-align: justify;
+  font-size: 15px;
+  padding-top: 40px;
 }

@@ -2,8 +2,8 @@ import "./Contact.css";
 
 const Contact = () => {
   return (
-    <div className="flex-container-contact justify-content-evenly">
-      <div className="row-contact" id="contact">
+    <div className="flex-container-contact justify-content-evenly" id="contact">
+      <div className="row-contact">
         <h4 className="contact-head">Contact Us</h4>
         <table>
           <tr>
